@@ -1,0 +1,78 @@
+* {
+    margin: 10;
+    border: 10;
+    padding: 10;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: black;
+}
+div {
+border: 2px solid green;
+}
+em {
+    color: rgb(255, 255,255);
+}
+a {
+    color: white;
+}
+a:hover {
+    background-color: red;
+}
+.container {
+    position: absolute;
+}
+.descricao {
+    width: 80%;
+    position: absolute;
+    top: 10px;
+    left: 280px;
+
+}
+#foto {
+    float: left;
+    width: 250px;
+    padding: 10px;
+    background-color: red;
+}
+#minhaFoto {
+    height: 259px;
+    position: relative;
+}
+.meuNome{
+    text-align: center;
+}
+.meuNome, .descricao {
+    font-family: 'Courier New', Courier, monospace;
+    color: #ffffff;
+}
+.resido {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(248, 218, 218);
+    
+}
+
+h2 {
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(255, 255, 255);
+}
+li {
+    color: aliceblue;
+}
+.guitarra {
+    font-size: 18px;
+}
+.cantar {
+    font-size: 16px;
+}
+.compor {
+    font-size: 14px;
+}
+.desenhar {
+    font-size: 12px;
+}
+ul li:nth-child(odd) {
+    background-color: red;
+}
